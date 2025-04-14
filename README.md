@@ -313,6 +313,8 @@ sns.set_theme(font='Malgun Gothic', rc={'axes.unicode_minus': False})
     - AutoML : 하이퍼파라미터를 기계가 직접 처리하는 머신러닝
     - 하이퍼파라미터를 편리하게 관리해주는 도구
 
+### 6장 비지도 학습은 넘어감
+
 ### 딥러닝, 인공신경망
 - 딥러닝 : 인간의 뇌를 모방하여 훈련시키는 머신러닝 기법
     - 이미지, 영상, 음성, 텍스트 처리에 뛰어난 성능 발휘
@@ -334,6 +336,20 @@ sns.set_theme(font='Malgun Gothic', rc={'axes.unicode_minus': False})
 ## 5일차
 
 ### 합성곱신경망
+- Convolution Neural Network
+    - 필터로 도장을 찍듯이 특성을 뽑아내어 사이즈를 줄여가며 훈련을 하는 신경망
+
+    <img src='./image/ml0012.png' width = '600'>
+
+- 기본용어
+    - 커널(필터) - 입력에 곱하는 가중치 도장. 뉴런의 개수를 필터라고 부름
+    - 특성 맵 - 합성곱 계산(각 커널과 입력을 곱한 출력)으로 구해진 출력값
+
+- 각각의 가중치로 특성맵을 여러번 생성
+
+    <img src = './image/ml0013.png' width = '600'>
+
+
 
 ### 파이토치
 
