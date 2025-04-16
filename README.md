@@ -387,9 +387,14 @@ sns.set_theme(font='Malgun Gothic', rc={'axes.unicode_minus': False})
 
 - [노트북](./day06/mldl02_파이토치_합성곱신경망.ipynb)
 
+<img src = './image/ml0020.png' width = '700'>
+
 ## 7일차
 
 ### 토이프로젝트
+- Cats and Dogs 이진분류 실습
+
+- [노트북]()
 
 ### YOLO
 
